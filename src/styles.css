@@ -1,0 +1,102 @@
+
+body {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+
+/*~~~~~~~~Header~~~~~~~~*/
+
+.header {
+    background-color: #202020;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-info {
+    color: #5DBCF9;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 3vh;
+    width: auto;
+}
+
+.profile-pic > img {
+    height: 100%;
+}
+
+.nav-bar {
+    font-size: .75em;
+    color: #919191;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.video:visited {
+    color: #919191;
+}
+
+/*~~~~~~CONTENT~~~~~~*/
+.content {
+    width: 100%;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*~~~~~~CARD~~~~~~*/
+
+.card {
+    background-color: #fFfFfF;
+    width: 45%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #ccc;
+}
+.card > section {
+    width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+    .header {
+        height: 20vh;
+    }
+
+    .nav-bar {
+        width: 40%;
+        font-size: 1em;
+    }
+
+    .topic {
+        display: block;
+    }
+}
