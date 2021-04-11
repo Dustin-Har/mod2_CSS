@@ -2,58 +2,313 @@
 <html>
     <head>
         <title>Static Comp</title>
-        <link rel='stylesheet' type='text/css' href='./src/styles.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="./src/styles.css">
     </head>
     <body>
-        <header class='header'>
-            <section class='info'>
-                <section class='user-info'>
-                    <section class='profile-pic'>
-                        <img src="./assests/profile-pic.png" alt="profile picture">
-                    </section>
-                    <p>username</p>
-                    <section class='logo'>
-                        <img src="" alt="">
-                    </section>
-                </section>
-            </section>
-            <spam class='nav-bar'>
-                <h3>SHARES</h3>
-                <h3>PLAYLISTS</h3>
-                <h3>PERSONAL VIDEOS</h3>
-            </spam>
+        <header class="header">
+            <button class="info">
+                <i class="far fa-user-circle profile-pic"></i>
+                <p>username</p>
+                <i class="fas fa-caret-down carrot"></i>
+            </button>
+            <nav>
+                <div>
+                    <a class="shares">
+                        <i class="fas fa-share-alt share-icon"></i>
+                        SHARES
+                    </a>
+                    <a class="playlist">
+                        <i class="fas fa-bars playlist-icon"></i>
+                        PLAYLISTS
+                    </a>
+                    <a class="video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none">
+                        <i class="far fa-user personal-vid-icon"></i>
+                        PERSONAL VIDEOS
+                    </a>
+                </div>
+                <a class="logo" href="/">
+                    <img class="phoenix" src="./assests/blue-phoenix.png" alt="Picture of a blue phoenix">
+                </a>
+            </nav>
         </header>
-        <main class='content'>
-            <section class='topic'>
-                <h1>SHARES</h1>
-            </section>
-            <article class='grid'>
-                <section class='card'>
-                    <section class='card-header'>
-                        <img src="" alt="">
-                        <section class='card-controls'>
-                            <img src="" alt="">
-                            <section>
-                                <h4>VIEWS</h4>
-                                <h2>02</h2>
-                            </section>
-                        </section>
-                    </section>
-                    <section class='card-info'>
-                        <section class='card-name'>
-                            <p>Recipient's Namehere</p>
-                            <p>Monday 01/23/16 10:22am</p>
-                        </section>
-                        <section>http://2win2winstage.com/p/recipients_namehere</section>
-                    </section>
-                    <section class='card-playlist'>
-                        <p>PLAYLIST</p>
-                        <p>Name of Playlist</p>
-                    </section>
-                    <section clss='card-attach'>
-                        <p>ATTACHMENTS</p>
-                        <P>04</P>
-                    </section>
+        <main class="content">
+            <h1 class="topic">SHARES</h1>
+            <article class="grid">
+                <section class="card">
+                    <div class="card-header-1">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-2">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-3">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-4">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-5">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-6">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-7">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header-8">
+                        <div class="card-controls">
+                            <button class="share">
+                                <i class="fas fa-share card-share"></i>
+                            </button>
+                            <div class="views">
+                                <span>VIEWS</span>
+                                <span class="num-views">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="card-name">
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span>http://2win2winstage.com/p/recipients_namehere</span>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card-playlist">
+                                <span class="play">PLAYLIST</span>
+                                <span>Name of Playlist</span>
+                            </div>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
+                                <span class="num-attach">04</span>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </article>
         </main> 

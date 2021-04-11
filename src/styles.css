@@ -1,0 +1,303 @@
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+
+/*~~~~~~~~Header~~~~~~~~*/
+
+.header {
+    background-color: #202020;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #5DBCF9;
+    background-color: #202020;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: auto;
+    color: #fFfFfF;
+    padding-right: 5%;
+}
+
+.carrot {
+    padding-left: 5%;
+}
+
+nav {
+    width: 100%;
+    font-size: .75em;
+    color: #919191;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 70%;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 25%;
+}
+
+.phoenix {
+    height: 180%
+}
+
+.nav-opt {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shares {
+    color: #EFEFEF;
+}
+
+.playlist-icon,
+.personal-vid-icon {
+    color: #5DBCF9;
+}
+
+.video:visited {
+    color: #919191;
+}
+
+/*~~~~~~CONTENT~~~~~~*/
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+/*~~~~~~CARD HEADER~~~~~~*/
+
+.card {
+    background-color: #fFfFfF;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #ccc;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.card-header-1,
+.card-header-2,
+.card-header-3,
+.card-header-4,
+.card-header-5,
+.card-header-6,
+.card-header-7,
+.card-header-8 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30%;
+}
+
+.card-header-1 {
+    background-image: url("../assests/office1.jpeg");
+}
+
+.card-header-2 {
+    background-image: url("../assests/stock2.jpeg");
+}
+
+.card-header-3 {
+    background-image: url("../assests/stock3.jpeg");
+}
+
+.card-header-4 {
+    background-image: url("../assests/stock9.jpeg");
+}
+
+.card-header-5 {
+    background-image: url("../assests/stock5.jpeg");
+}
+
+.card-header-6 {
+    background-image: url("../assests/stock6.jpeg");
+}
+
+.card-header-7 {
+    background-image: url("../assests/stock7.jpeg");
+}
+
+.card-header-8 {
+    background-image: url("../assests/stock10.jpeg");
+}
+
+.card-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.share {
+    background-color: #fFfFfF;
+    border-radius: 50%;
+    font-size: 1.5em;
+    padding: 5%;
+    margin: 5%;
+    border: none;
+    outline: none;
+}
+
+.card-share {
+    color: #4D4D4D;
+}
+
+.views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .75em;
+    padding-right: 5%;
+    color: #fFfFfF;
+}
+
+/*~~~~~~CARD CONTENT~~~~~~*/
+
+.card-content {
+    padding: 0 7% 0 7%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.num-views {
+    font-size: 2em;
+}
+
+.card-name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.date {
+    color: #b4b4b4;
+    font-size: .75rem;
+}
+
+.link {
+    color: #9E9E9E;
+    width: 100%;
+    word-wrap: break-word;
+    background-color: #EFEFEF;
+}
+
+.card-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+}
+
+.card-playlist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-attachment {
+    display: flex;
+    flex-direction: column;
+}
+
+.play,
+.card-attach {
+    font-size: .75rem;
+}
+
+.card-attach {
+    margin: 0;
+}
+.num-attach {
+    color: #5DBCF9;
+}
+
+
+
+/*~~~~~~desktop~~~~~~*/
+@media only screen and (min-width: 800px) {
+    .header {
+        height: 125px;
+    }
+
+    nav > div {
+        font-size: 1.5em;
+        width: 45%;
+    }
+
+    .nav-bar {
+        font-size: 1.25em;
+    }
+
+    .nav-opt {
+        width: 55%;
+        padding-bottom: 3%;
+        padding-left: 2%;
+    }
+
+    .logo {
+        height: 50%;
+    }
+
+    .phoenix {
+        width: 20%;
+        padding-right: 2%;
+    }
+
+    .topic {
+        display: block;
+        padding-left: 2%;
+    }
+
+    /*~~~~~GRID~~~~~*/
+
+    .card {
+        width: 24%;
+    }
+}
