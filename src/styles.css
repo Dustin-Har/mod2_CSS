@@ -40,25 +40,47 @@ body {
     padding-left: 5%;
 }
 
-.nav-bar {
+nav {
     width: 100%;
     font-size: .75em;
     color: #919191;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
+    height: 70%;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 25%;
+}
+
+.phoenix {
+    height: 180%
 }
 
 .nav-opt {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.nav-shares {
+.shares {
     color: #EFEFEF;
+}
+
+.playlist-icon,
+.personal-vid-icon {
+    color: #5DBCF9;
 }
 
 .video:visited {
@@ -94,19 +116,56 @@ body {
     flex-direction: column;
     box-shadow: 0 0 10px #ccc;
     justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 
-.card-header {
-    background-image: url("../assests/office1.jpeg");
+.card-header-1,
+.card-header-2,
+.card-header-3,
+.card-header-4,
+.card-header-5,
+.card-header-6,
+.card-header-7,
+.card-header-8 {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 30%;
 }
 
+.card-header-1 {
+    background-image: url("../assests/office1.jpeg");
+}
+
+.card-header-2 {
+    background-image: url("../assests/stock2.jpeg");
+}
+
+.card-header-3 {
+    background-image: url("../assests/stock3.jpeg");
+}
+
+.card-header-4 {
+    background-image: url("../assests/stock9.jpeg");
+}
+
+.card-header-5 {
+    background-image: url("../assests/stock5.jpeg");
+}
+
+.card-header-6 {
+    background-image: url("../assests/stock6.jpeg");
+}
+
+.card-header-7 {
+    background-image: url("../assests/stock7.jpeg");
+}
+
+.card-header-8 {
+    background-image: url("../assests/stock10.jpeg");
+}
 
 .card-controls {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -128,7 +187,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-size: .75em;
+    padding-right: 5%;
+    color: #fFfFfF;
 }
 
 /*~~~~~~CARD CONTENT~~~~~~*/
@@ -204,12 +266,38 @@ body {
         height: 125px;
     }
 
+    nav > div {
+        font-size: 1.5em;
+        width: 45%;
+    }
+
     .nav-bar {
-        width: 40%;
-        font-size: 1em;
+        font-size: 1.25em;
+    }
+
+    .nav-opt {
+        width: 55%;
+        padding-bottom: 3%;
+        padding-left: 2%;
+    }
+
+    .logo {
+        height: 50%;
+    }
+
+    .phoenix {
+        width: 20%;
+        padding-right: 2%;
     }
 
     .topic {
         display: block;
+        padding-left: 2%;
+    }
+
+    /*~~~~~GRID~~~~~*/
+
+    .card {
+        width: 24%;
     }
 }
