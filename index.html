@@ -20,9 +20,18 @@
                     <img src="" alt="">
                 </div>
                 <div class="nav-opt">
-                    <a class="shares">SHARES</a>
-                    <a class="playlist">PLAYLISTS</a>
-                    <a class="video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none">PERSONAL VIDEOS</a>
+                    <div class="nav-shares">
+                        <i class="fas fa-share-alt share-icon"></i>
+                        <a class="shares">SHARES</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-bars playlist-icon"></i>
+                        <a class="playlist">PLAYLISTS</a>
+                    </div>
+                    <div>
+                        <i class="far fa-user personal-vid-icon"></i>
+                        <a class="video" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none">PERSONAL VIDEOS</a>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -33,7 +42,7 @@
                     <div class="card-header">
                         <div class="card-controls">
                             <button class="share">
-                                <i class="fas fa-share"></i>
+                                <i class="fas fa-share card-share"></i>
                             </button>
                             <div class="views">
                                 <span>VIEWS</span>
@@ -44,8 +53,8 @@
                     <div class="card-content">
                         <div class="card-info">
                             <div class="card-name">
-                                <h3>Recipient"s Namehere</h3>
-                                <span>Monday 01/23/16 10:22am</span>
+                                <span>Recipient"s Namehere</span>
+                                <span class="date">Monday 01/23/16 10:22am</span>
                             </div>
                         </div>
                         <div class="link">
@@ -53,11 +62,11 @@
                         </div>
                         <div class="card-bottom">
                             <div class="card-playlist">
-                                <h4>PLAYLIST</h4>
+                                <span class="play">PLAYLIST</span>
                                 <span>Name of Playlist</span>
                             </div>
-                            <div clss="card-attachment">
-                                <h4 class="card-attach">ATTACHMENTS</h4>
+                            <div class="card-attachment">
+                                <span class="card-attach">ATTACHMENTS</span>
                                 <span class="num-attach">04</span>
                             </div>
                         </div>
