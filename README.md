@@ -17,7 +17,9 @@
 
 * [Dustin Harbaugh](https://github.com/Dustin-Har)
 
+### EASTER EGG
 
+* click personal videos
 
 ## Preview
 
